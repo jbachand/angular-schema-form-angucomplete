@@ -1,0 +1,37 @@
+{
+  "name": "angular-schema-form-angucomplete",
+  "main": [
+    "bootstrap-angucomplete.min.js"
+  ],
+  "version": "0.1.1",
+  "authors": [
+    "ventureApp",
+    "Jeff Bachand <jeff@n2op.com>"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "angular-schema-form",
+    "schema-form",
+    "form",
+    "json",
+    "json-schema",
+    "schema"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "coverage"
+  ],
+  "dependencies": {
+    "angucomplete-alt": ">2.0.0"
+  },
+  "devDependencies": {
+    "angular-schema-form": ">= 0.7",
+    "angular-mocks": ">= 1.2"
+  }
+}
