@@ -3,7 +3,7 @@
   "main": [
     "bootstrap-angucomplete.min.js"
   ],
-  "version": "0.1.1",
+  "version": "0.1.2",
   "authors": [
     "ventureApp",
     "Jeff Bachand <jeff@n2op.com>"
