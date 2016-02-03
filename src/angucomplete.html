@@ -1,8 +1,7 @@
 <div class="form-group" ng-class="{'has-error': hasError()}">
   <label class="control-label" ng-show="showTitle()">{{form.title}}</label>
   <div>
-
-
+    <span style="display:none">{{$$value$$=selected}}</span>
       <angucomplete-alt
         focus-out="form.completeOptions.focusOut()"
         image-field="{{form.completeOptions.image}}"
@@ -14,6 +13,7 @@
         local-data="form.completeOptions.data"
         remote-url="{{form.completeOptions.url}}"
         search-fields="{{form.completeOptions.search}}"
+        selected-object="form.completeOptions.select || selected"
         text-no-results=false
         title-field="{{form.completeOptions.title}}">
 
