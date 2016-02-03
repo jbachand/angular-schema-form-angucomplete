@@ -6,13 +6,13 @@
       <angucomplete-alt
         focus-out="form.completeOptions.focusOut()"
         image-field="{{form.completeOptions.image}}"
-        input-class="{{form.completeOptions.image || 'form-control'}}"
+        input-class="{{form.completeOptions.class || 'form-control'}}"
         input-name="$$value$$"
         minlength="{{form.completeOptions.minlength || '1'}}"
         override-suggestions="true"
         pause="400"
-        local-data="{{form.completeOptions.data || null}}"
-        remote-url="{{form.completeOptions.url || null}}"
+        local-data="form.completeOptions.data"
+        remote-url="{{form.completeOptions.url}}"
         search-fields="{{form.completeOptions.search}}"
         text-no-results=false
         title-field="{{form.completeOptions.title}}">
