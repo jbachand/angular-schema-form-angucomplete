@@ -43,7 +43,7 @@ module.exports = function(config) {
 
     ngHtml2JsPreprocessor: {
       cacheIdFromPath: function(filepath) {
-        return 'directives/decorators/bootstrap/colorpicker/' + filepath.substr(4);
+        return 'directives/decorators/bootstrap/angucomplete/' + filepath.substr(4);
       },
       moduleName: 'templates'
     },
