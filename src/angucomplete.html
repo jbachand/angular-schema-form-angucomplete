@@ -4,14 +4,15 @@
 
 
       <angucomplete-alt
-        focus-out="form.spectrumOptions.focusOut"
+        focus-out="form.spectrumOptions.focusOut()"
         image-field="{{form.spectrumOptions.image}}"
-        input-class="form-control"
+        input-class="{{form.spectrumOptions.image || 'form-control'}}"
         input-name="$$value$$"
-        minlength="1"
+        minlength="{{form.spectrumOptions.minlength || '1'}}"
         override-suggestions="true"
         pause="400"
-        remote-url="{{form.spectrumOptions.url}}"
+        local-data="{{form.spectrumOptions.data || []}}""
+        remote-url="{{form.spectrumOptions.url || null}}"
         search-fields="{{form.spectrumOptions.search}}"
         text-no-results=false
         title-field="{{form.spectrumOptions.title}}">
