@@ -1,6 +1,10 @@
 Angucomplete addon
 =================
 
+Install
+```
+bower install jbachand/angular-schema-form-angucomplete --save
+
 Example Form Data:
 
 ```
